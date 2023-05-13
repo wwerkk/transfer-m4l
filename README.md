@@ -4,8 +4,8 @@ Max4Live device for real-time timbre transfer using RAVE models.
 - nn~ tilde: https://github.com/acids-ircam/nn_tilde/
 - wheel and percussion RAVE models (for demonstrative purposes): https://acids-ircam.github.io/rave_models_download
 ## Quick start
-- Download the required files and add them to your Max path.
-If you don't know how to do that - clone the repository as instructed below and simply put them inside of it.
+- Download the required files from above and add them to your Max path.
+If you don't know how to do that - clone the repo as instructed below and simply put all of the necessary files inside of the repo directory.
 - For the M4L device to appear in Max for Live/Max Audio Effects in Ableton, on MacOS run:
 ```
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
