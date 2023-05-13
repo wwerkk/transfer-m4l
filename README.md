@@ -6,11 +6,11 @@ Max4Live device for real-time timbre transfer using RAVE models.
 ## Quick start
 - Download the required files from above and add them to your Max path.
 If you don't know how to do that - clone the repo as instructed below and simply put all of the necessary files inside of the repo directory.
-- For the M4L device to appear in Max for Live/Max Audio Effects in Ableton, on MacOS run:
+- For ``transfer.amxd`` to appear in Max for Live/Max Audio Effects in Ableton, on MacOS run:
 ```
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
-- Use ``transfer.amxd`` as an audio effect on any channel you like.
+- Use as an audio effect on any channel you like.
 - You can change the loaded model using the umenu.
 - Turn up the Wet gain.
 - Latent vectors can be offset and scaled using the multisliders.
