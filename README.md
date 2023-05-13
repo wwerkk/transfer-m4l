@@ -10,7 +10,7 @@ If you don't know how to do that - clone the repo as instructed below and simply
 ```
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
-- Use as an audio effect on any channel.
+- Use ``transfer.amxd`` as an audio effect on any channel you like.
 - You can change the loaded model using the umenu.
 - Turn up the Wet gain.
 - Latent vectors can be offset and scaled using the multisliders.
