@@ -2,7 +2,7 @@
 Max4Live device for real-time timbre transfer using RAVE models.
 ## Requirements
 - nn~ tilde: https://github.com/acids-ircam/nn_tilde/
-- wheel and percussion RAVE models (for demonstrative purposes): https://acids-ircam.github.io/rave_models_download
+- any RAVE model, you can download some pre-trained ones here (darbouka_onnx does not work for the moment): https://acids-ircam.github.io/rave_models_download
 ## Quick start
 - Download the required files and add them to your Max path.
 If you don't know how to do that - simply putting them inside the directory of this cloned repo should do.
