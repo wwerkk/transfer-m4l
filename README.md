@@ -6,7 +6,7 @@ Max4Live device for real-time timbre transfer using RAVE models.
 ## Quick start
 - Download the required files and add them to your Max path.
 If you don't know how to do that - simply putting them inside the directory of this cloned repo should do.
-- For the M4L device to appear in Max for Live/Max Audio Effects in Ableton, on Mac run.
+- For the M4L device to appear in Max for Live/Max Audio Effects in Ableton, on MacOS run:
 ```
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
