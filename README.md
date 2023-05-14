@@ -18,6 +18,6 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 ## Adding your own models
 Add the directory containing your models by dropping it into the box on left bottom of the patch or using the browse button.
 
-*Default* button resets the path to default Max path, it should show up ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
+To set your custom directory as default, open it in Max, add directory as described above and save the patcher.
 
-Your 
+*Default* button resets the path to default Max path, it should show up ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
