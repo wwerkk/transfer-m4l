@@ -17,7 +17,6 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
 ## Adding your own models
 Add the directory containing your models by dropping it into the box on left bottom of the patch or using the browse button.
+To set your chosen model folder as default, open the patcher in Max, add the directory as normally and save the patcher.
 
-To set your custom directory as default, open it in Max, add directory as described above and save the patcher.
-
-*Default* button resets the path to default Max path, it should show up ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
+*Default* button resets the path to default Max path, it should display ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
