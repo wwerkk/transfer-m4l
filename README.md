@@ -1,9 +1,9 @@
 # Transfer
 Max4Live device for real-time timbre transfer using RAVE models.
 ## Requirements
-- nn~ tilde: https://github.com/acids-ircam/nn_tilde/
-- any RAVE model, you can download some pre-trained ones here: https://acids-ircam.github.io/rave_models_download
-(v1 models without prior training such as darbouka_onnx do not work for the moment)
+- ``nn~`` external: https://github.com/acids-ircam/nn_tilde/
+- any *RAVE* model, you can download some pre-trained ones here: https://acids-ircam.github.io/rave_models_download
+(v1 models without prior training such as ``darbouka_onnx`` do not work for the moment)
 ## Quick start
 - Download the required files from above and add them to your Max path.
 If you don't know how to do that: clone the repo as instructed below and simply put all of the necessary files inside of the repo directory.
@@ -14,9 +14,10 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - Use as an audio effect on any channel you like.
 - You can change the loaded model using the menu.
 - Turn up the Wet output gain.
-- Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your values go out of -4 - 4 range.
+- Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
 - You can save the current settings by clicking on the ``preset`` object on the far right while holding *Shift*.
 ## Adding your own models
 To add your own model and enable loading it dynamically:
-1. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object.
-2. That's it!
+1. Make sure the model was exported with the ``--streaming`` flag and it's in your Max path or repo directory.
+2. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object.
+3. That's it!
