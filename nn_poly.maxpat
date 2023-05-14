@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 112.0, 816.0, 849.0 ],
+		"rect" : [ 34.0, 111.0, 851.0, 849.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "int" ],
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patching_rect" : [ 435.5, 482.0, 102.0, 22.0 ],
 					"text" : "updateLatentSize"
 				}
@@ -57,7 +57,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 518.5, 573.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.5, 573.0, 77.0, 22.0 ],
+					"text" : "mc.s~ empty"
 				}
 
 			}
@@ -69,7 +84,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 246.0, 573.0, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : [ "Signal", "out", "(Right)" ]
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 2"
@@ -84,7 +99,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 573.0, 42.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"attr_comment" : [ "Signal", "out", "(Left)" ]
+						"attr_comment" : ""
 					}
 ,
 					"text" : "out~ 1"
@@ -274,17 +289,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 435.5, 573.0, 77.0, 22.0 ],
-					"text" : "mc.s~ empty"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -347,9 +351,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 246.0, 482.0, 139.0, 22.0 ],
-					"text" : "mcs.nn~ vintage decode"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 246.0, 482.0, 114.0, 22.0 ],
+					"text" : "mcs.nn~ #1 decode"
 				}
 
 			}
@@ -359,9 +363,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 287.5, 166.0, 139.0, 22.0 ],
-					"text" : "mcs.nn~ vintage encode"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 287.5, 166.0, 114.0, 22.0 ],
+					"text" : "mcs.nn~ #1 encode"
 				}
 
 			}
@@ -940,9 +944,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 52.0, 482.0, 139.0, 22.0 ],
-					"text" : "mcs.nn~ vintage decode"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 52.0, 482.0, 114.0, 22.0 ],
+					"text" : "mcs.nn~ #1 decode"
 				}
 
 			}
@@ -952,9 +956,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 51.0, 166.0, 139.0, 22.0 ],
-					"text" : "mcs.nn~ vintage encode"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 51.0, 166.0, 114.0, 22.0 ],
+					"text" : "mcs.nn~ #1 encode"
 				}
 
 			}
@@ -1088,7 +1092,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"midpoints" : [ 297.0, 203.5, 445.0, 203.5 ],
+					"midpoints" : [ 297.0, 201.5, 445.0, 201.5 ],
 					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
@@ -1219,10 +1223,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mcs.nn~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "updateLatentSize.maxpat",
 				"bootpath" : "~/Music/Ableton/User Library/Presets/Audio Effects/Max Audio Effect/transfer",
 				"patcherrelativepath" : ".",
