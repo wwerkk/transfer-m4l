@@ -17,7 +17,4 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
 - You can save the current settings by clicking on the ``preset`` object on the far right while holding *Shift*.
 ## Adding your own models
-To add your own model and enable loading it dynamically:
-1. Make sure the model was exported with the ``--streaming`` flag and it's in your Max path or repo directory.
-2. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object.
-3. That's it!
+Simply drag and drop a model or a directory to add it to the ``umenu`` items.
