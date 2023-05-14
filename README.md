@@ -12,10 +12,10 @@ If you don't know how to do that: clone the repo as instructed below and simply 
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
 - Use as an audio effect on any channel you like.
-- You can change the loaded model using the umenu.
-- Turn up the Wet gain.
-- Latent vectors can be offset and scaled using the multisliders.
-- You can save the multislider settings by clicking on the ``preset`` object on the far right while holding *Shift*.
+- You can change the loaded model using the menu.
+- Turn up the Wet output gain.
+- Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your values go out of -4 - 4 range.
+- You can save the current settings by clicking on the ``preset`` object on the far right while holding *Shift*.
 ## Adding your own models
 To add your own model and enable loading it dynamically:
 1. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object.
