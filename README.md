@@ -17,8 +17,5 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - You can save the multislider settings by clicking on the ``preset`` object on the far right while holding *Shift*.
 ## Adding your own models
 To add your own model and enable loading it dynamically:
-1. Create a copy of one of the poly patches.
-2. Rename the copied file to ``yourmodelname_poly.maxpat``.
-3. Open the freshly created patch and change the argumets in four nn~ object instances to use your model, make sure the top two include the ``encode`` and the bottom two include ``decode`` arguments at the end, save it.
-4. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object, save it.
-5. The latent dimensions should update automatically, your model is ready to go!
+1. In the ``transfer.amxd`` patch, add your model name as an item to the ``live.menu`` object.
+2. That's it!
