@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 555.5, 660.0, 48.0, 22.0 ],
+					"patching_rect" : [ 555.5, 687.0, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -89,7 +89,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "multichannelsignal", "float", "int" ],
 					"patching_rect" : [ 518.5, 528.0, 56.0, 34.0 ],
-					"sig" : [ 0.0, 0.0, 0.0, 0.0 ]
+					"sig" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -111,7 +111,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.5, 700.0, 35.0, 22.0 ],
+					"patching_rect" : [ 555.5, 793.0, 35.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -134,6 +138,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 246.0, 573.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -145,6 +153,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 573.0, 42.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -395,7 +407,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 246.0, 482.0, 158.0, 22.0 ],
+					"patching_rect" : [ 246.0, 482.0, 216.0, 22.0 ],
 					"text" : "mcs.nn~ #1 decode"
 				}
 
@@ -407,7 +419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 287.5, 166.0, 158.0, 22.0 ],
+					"patching_rect" : [ 287.5, 166.0, 216.0, 22.0 ],
 					"text" : "mcs.nn~ #1 encode"
 				}
 
@@ -986,7 +998,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 52.0, 482.0, 158.0, 22.0 ],
+					"patching_rect" : [ 52.0, 482.0, 216.0, 22.0 ],
 					"text" : "mcs.nn~ #1 decode"
 				}
 
@@ -998,7 +1010,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 51.0, 166.0, 158.0, 22.0 ],
+					"patching_rect" : [ 51.0, 166.0, 216.0, 22.0 ],
 					"text" : "mcs.nn~ #1 encode"
 				}
 

@@ -15,6 +15,9 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - You can change the loaded model using the menu.
 - Turn up the Wet output gain.
 - Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
-- You can save the current settings by clicking on the ``preset`` object on the far right while holding *Shift*.
 ## Adding your own models
-If the ``.ts`` files are in your Max path, you can drop them into the box on bottom right or use the browse button to add them to the model choice menu.
+Add the directory containing your models by dropping it into the box on left bottom of the patch or using the browse button.
+
+*Default* button resets the path to default Max path, it should show up ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
+
+Your 
