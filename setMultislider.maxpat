@@ -46,8 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.0, 323.0, 89.0, 62.0 ],
-					"text" : "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
+					"patching_rect" : [ 346.0, 323.0, 23.0, 62.0 ],
+					"text" : "1 1 1 1"
 				}
 
 			}
@@ -154,14 +154,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 435.5, 230.5, 355.5, 230.5 ],
-					"source" : [ "obj-34", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
 					"midpoints" : [ 457.0, 186.5, 446.0, 186.5 ],
 					"order" : 1,
@@ -195,7 +187,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 425.0, 305.75, 425.5, 305.75 ],
+					"midpoints" : [ 425.0, 305.75, 359.5, 305.75 ],
 					"source" : [ "obj-61", 0 ]
 				}
 
