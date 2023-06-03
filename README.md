@@ -1,5 +1,5 @@
 # Transfer
-Max4Live device for easy, real-time timbre transfer in Ableton Live using [RAVE](https://github.com/acids-ircam/RAVE).
+Max for Live device for easy, real-time timbre transfer in Ableton Live using [RAVE](https://github.com/acids-ircam/RAVE).
 ## Requirements
 - ``nn~`` external: https://github.com/acids-ircam/nn_tilde/
 ## Quick start
