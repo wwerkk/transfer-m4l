@@ -32,3 +32,7 @@ Multislider settings should save automatically with your Ableton project.
 
 ## Note
 This is a work in progress, so feel free to open up issues for any bugs encountered or features you'd like to see. Feedback from Windows users is especially appreciated, since I don't have any means of testing on that platform.
+
+
+## Demo
+Coming soon!
