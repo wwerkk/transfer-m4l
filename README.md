@@ -1,22 +1,34 @@
 # Transfer
-Max4Live device for real-time timbre transfer using RAVE models.
+Max4Live device for easy, real-time timbre transfer in Ableton Live using [RAVE](https://github.com/acids-ircam/RAVE).
 ## Requirements
 - ``nn~`` external: https://github.com/acids-ircam/nn_tilde/
-- any *RAVE* model, you can download some pre-trained ones here: https://acids-ircam.github.io/rave_models_download
-(v1 models without prior training such as ``darbouka_onnx`` do not work for the moment)
 ## Quick start
-- Download the required files from above and add them to your Max path.
-If you don't know how to do that: clone the repo as instructed below and simply put all of the necessary files inside of the repo directory.
-- For ``transfer.amxd`` to appear in Max for Live/Max Audio Effects in Ableton, on MacOS run:
+- Download/clone this repo. For ``transfer.amxd`` to appear in ``Max for Live/Max Audio Effects`` in Ableton, on MacOS you can run:
 ```
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
-- Use as an audio effect on any channel you like.
-- You can change the loaded model using the menu.
-- Turn up the Wet output gain.
-- Latent vectors can be offset and scaled using the multisliders, the menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
+- Download the nn~ version compatible with your system and put it somewhere in your Max path, ie. the folder of this repository.
+- Drop as an audio effect on any channel you like.
+- Hit the *Download* button to automatically download [pre-trained models made available by kind people of IRCAM](https://acids-ircam.github.io/rave_models_download).
+- After download is finished, the menu on top of the patch should automatically populate with four pre-trained models (note: ``darbouka_onnx`` is not compatible).
+- Pick the model you want to use.
+- Turn up the Wet gain.
+- Use as you would use a regular audio effect.
+- Values in each latent dimension can be scaled and offset using the multisliders. The menu below offset controls wavefolding settings in case your latent values go out of ``-4`` to ``4`` range.
+- Latency of the output can be reduced by changing the *Buffer size* setting to 0. This is pretty CPU heavy, so you might have to trade-off by increasing the global Ableton buffer size.
 ## Adding your own models
-Add the directory containing your models by dropping it into the box on left bottom of the patch or using the browse button.
-To set your chosen model folder to load up on start, open the patcher in Max, add the directory as described above and save the patcher.
+You can add your own models by clicking *Browse* and picking the directory where your models are located, or simply put them into the folder of the repo and hit the *Default* button to automatically re-populate the menu.
 
-*Default* button resets the path to default Max path, it should display ``wheel.ts`` if you have downloaded it using the ``nn~`` help file.
+A symbolic link to the model directory will also work. On Mac, you can create one by running:
+```
+ln -s ~/models ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer/models
+```
+Afterwards, hit *Default* to update the menu.
+
+## Saving
+To set your chosen model folder to load up on start, open the patcher in Max, add the directory as described above and save the patcher.
+Multislider settings should save automatically with your Ableton project.
+
+
+## Note
+This is a work in progress, so feel free to open up issues for any bugs encountered or features you'd like to see. Feedback from Windows users is especially appreciated, since I don't have any means of testing on that platform.
