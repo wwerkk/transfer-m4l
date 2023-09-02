@@ -14,8 +14,8 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 - Pick the model you want to use.
 - Turn up the Wet gain.
 - Use as you would use a regular audio effect.
-- Values in each latent dimension can be scaled and offset using the multisliders. The menu below offset controls wavefolding settings in case your latent values go out of ``[-4, 4]`` range.
-- Latency of the output can be reduced by changing the *Buffer size* setting to 0. This is pretty CPU heavy, so you might have to trade-off by increasing the global Ableton buffer size.
+- Values in each latent dimension can be scaled and offset using the multisliders. The menu below offset controls wavefolding settings in case your latent values go out of set range.
+- Latency of the output can be reduced by changing the *Buffer size* setting to 0. This is pretty CPU heavy, so you might have to trade-off by increasing the global buffer size in Ableton Preferences.
 ## Adding your own models
 You can add your own models by clicking *Browse* and picking the directory where your models are located, or simply put them into the folder of the repo and hit the *Default* button to automatically re-populate the menu.
 
