@@ -46,6 +46,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1150.0, 35.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 9"
 				}
 
@@ -84,10 +88,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1020.0, 35.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 8"
 				}
 
@@ -126,6 +126,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 815.0, 35.0, 28.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 7"
 				}
 
@@ -239,7 +243,7 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 1150.0, 263.0, 135.0, 23.0 ],
 					"text" : "mc.gen~ @title brown",
-					"wrapper_uniquekey" : "u789003018"
+					"wrapper_uniquekey" : "u358007986"
 				}
 
 			}
@@ -389,10 +393,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 853.75, 849.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 1"
 				}
 
@@ -404,10 +404,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 246.0, 590.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -419,10 +415,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 51.0, 590.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -669,7 +661,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -1158,7 +1149,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 815.0, 263.0, 64.0, 22.0 ],
-					"text" : "mc.sig~ 1."
+					"text" : "mc.sig~ 0."
 				}
 
 			}
