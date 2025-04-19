@@ -1,0 +1,4 @@
+*.maxpat              diff=maxpat
+*.amxd                diff=amxd
+*.als                 diff=als
+
