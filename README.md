@@ -1,7 +1,9 @@
 # Transfer
 Max for Live device for easy, real-time timbre transfer in Ableton Live using [RAVE](https://github.com/acids-ircam/RAVE).
 ## Requirements
-- ``nn~`` external: https://github.com/acids-ircam/nn_tilde/
+- ``nn~ v.1.5.6`` external: https://github.com/acids-ircam/nn_tilde/releases/tag/v1.5.6
+
+**Note: most recent ``nn~ v.1.6.0`` release is not supported!**
 ## Quick start
 - Download/clone this repo. For ``transfer.amxd`` to appear in ``Max for Live/Max Audio Effects`` in Ableton, on MacOS you can run:
 ```
