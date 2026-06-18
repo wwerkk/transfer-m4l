@@ -51,5 +51,12 @@ This is a work in progress, so feel free to open up issues for any bugs encounte
 
 ## Demo
 
-Coming at some point (since three years)!
-A less proper one can be found [here](https://www.youtube.com/watch?v=mzVxCmxmQBg).
+A proper one is due at some point.
+A less proper video of simple jamming can be found on [my YouTube](https://www.youtube.com/watch?v=mzVxCmxmQBg).
+
+---
+
+More RAVE models are available from:
+
+- [IRCAM ACIDS](https://acids-ircam.github.io/rave_models_download)
+- [Intelligent Instruments Lab](https://huggingface.co/Intelligent-Instruments-Lab/rave-models/tree/main)
