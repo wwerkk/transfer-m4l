@@ -16,10 +16,11 @@ Max for Live device for easy, real-time timbre transfer in Ableton Live using [R
 git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer
 ```
 
-- Download the nn~ version compatible with your system and put it somewhere in your Max path, ie. the folder of this repository.
-- Drop as an audio effect on any channel you like.
-- Hit the *Download* button to automatically download [pre-trained models made available by kind people of IRCAM](https://acids-ircam.github.io/rave_models_download).
-- After download is finished, the menu on top of the patch should automatically populate with four pre-trained models (note: ``darbouka_onnx`` is not compatible).
+- Add the repo directory to the Max Path via ``Options/File Preferences``.
+- Download the nn~ Max MSP release appropriate for your system and put it somewhere in your Max path, ie. this repository.
+- Drop the M4L device as an audio effect on any channel you like.
+- Hit the *Download* button to automatically download some of the [pre-trained models made available by kind people of IRCAM](https://acids-ircam.github.io/rave_models_download).
+- After download is finished, the menu on top of the patch should automatically populate with four models.
 - Pick the model you want to use.
 - Turn up the Wet gain.
 - Use as you would use a regular audio effect.
@@ -28,15 +29,8 @@ git clone https://github.com/wwerkk/transfer-m4l.git ~/Music/Ableton/User\ Libra
 
 ## Adding your own models
 
-You can add your own models by clicking *Browse* and picking the directory where your models are located, or simply put them into the folder of the repo and hit the *Default* button to automatically re-populate the menu.
-
-A symbolic link to the model directory will also work. On Mac, you can create one by running:
-
-```
-ln -s ~/models ~/Music/Ableton/User\ Library/Presets/Audio\ Effects/Max\ Audio\ Effect/transfer/models
-```
-
-Afterwards, hit *Default* to update the menu.
+You can add your own models by dropping them into the ``nn_models`` subdirectory, or replacing it with a symlink to a directory of your choice containing the models.
+Hit ``Refresh`` to repopulate the umenu.
 
 ## Saving
 
